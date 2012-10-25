@@ -1,0 +1,21 @@
+//
+//  TouchServiceSharedConstants.h
+//  
+//
+//  Created by Josh Rooke-Ley on 8/27/12.
+//  Copyright (c) 2012 Josh Rooke-Ley. All rights reserved.
+//
+
+#ifndef _TouchServiceSharedConstants_h
+#define _TouchServiceSharedConstants_h
+
+
+#define TOUCH_SERVICE_UUID @"D5D9A38F-B9C3-4E18-B150-F05AFE9B8C0E"
+#define TOUCH_EVENT_CHARACTERISTIC_UUID @"C8AA4FFF-6486-44C1-9558-E8C268DA4A1B"
+#define TAP_GESTURE_CHARACTERISTIC_UUID @"3E5E0E0B-D89C-4A5D-986E-F3F86CDF600D"
+
+//#define PINCH_GESTURE_CHARACTERISTIC_UUID @"69DAFDA5-A70E-46D6-A355-9404125168BA"
+//#define SWIPE_GESTURE_CHARACTERISTIC_UUID @"3D916AB8-0542-428C-B056-065E5C2B7654"
+
+
+#endif

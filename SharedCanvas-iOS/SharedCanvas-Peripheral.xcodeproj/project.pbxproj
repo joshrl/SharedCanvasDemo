@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034DC98415EBB02F001F2BB8 /* TouchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 034DC98315EBB02F001F2BB8 /* TouchService.m */; };
+		0371620315DAF166006DBF95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371620215DAF166006DBF95 /* UIKit.framework */; };
+		0371620515DAF166006DBF95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371620415DAF166006DBF95 /* Foundation.framework */; };
+		0371620715DAF166006DBF95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371620615DAF166006DBF95 /* CoreGraphics.framework */; };
+		0371620D15DAF166006DBF95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0371620B15DAF166006DBF95 /* InfoPlist.strings */; };
+		0371620F15DAF166006DBF95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0371620E15DAF166006DBF95 /* main.m */; };
+		0371621315DAF166006DBF95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0371621215DAF166006DBF95 /* AppDelegate.m */; };
+		0371621615DAF166006DBF95 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0371621415DAF166006DBF95 /* MainStoryboard.storyboard */; };
+		0371621915DAF166006DBF95 /* ConnectedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0371621815DAF166006DBF95 /* ConnectedController.m */; };
+		0371622115DAF647006DBF95 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0371622015DAF647006DBF95 /* CoreBluetooth.framework */; };
+		03D025FC15EC58330001A40D /* WaitingForConnectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D025FB15EC58330001A40D /* WaitingForConnectionController.m */; };
+		0E5B83FF163973A200E868A9 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E5B83FE163973A200E868A9 /* Entitlements.plist */; };
+		0E5B840B1639980B00E868A9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E5B840A1639980B00E868A9 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		034DC98215EBB02F001F2BB8 /* TouchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TouchService.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		034DC98315EBB02F001F2BB8 /* TouchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TouchService.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		037161FE15DAF166006DBF95 /* Brush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brush.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0371620215DAF166006DBF95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0371620415DAF166006DBF95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0371620615DAF166006DBF95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0371620A15DAF166006DBF95 /* SharedCanvas-Peripheral-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SharedCanvas-Peripheral-Info.plist"; sourceTree = "<group>"; };
+		0371620C15DAF166006DBF95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0371620E15DAF166006DBF95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0371621015DAF166006DBF95 /* SharedCanvas-Peripheral-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SharedCanvas-Peripheral-Prefix.pch"; sourceTree = "<group>"; };
+		0371621115DAF166006DBF95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0371621215DAF166006DBF95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0371621515DAF166006DBF95 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0371621715DAF166006DBF95 /* ConnectedController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectedController.h; sourceTree = "<group>"; };
+		0371621815DAF166006DBF95 /* ConnectedController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectedController.m; sourceTree = "<group>"; };
+		0371622015DAF647006DBF95 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		03D025FA15EC58330001A40D /* WaitingForConnectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingForConnectionController.h; sourceTree = "<group>"; };
+		03D025FB15EC58330001A40D /* WaitingForConnectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WaitingForConnectionController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		03FCBBC115EC05550070C60B /* TouchServiceSharedConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TouchServiceSharedConstants.h; path = ../TouchServiceSharedConstants.h; sourceTree = "<group>"; };
+		0E5B83FE163973A200E868A9 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = SOURCE_ROOT; };
+		0E5B840A1639980B00E868A9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037161FB15DAF166006DBF95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0371622115DAF647006DBF95 /* CoreBluetooth.framework in Frameworks */,
+				0371620315DAF166006DBF95 /* UIKit.framework in Frameworks */,
+				0371620515DAF166006DBF95 /* Foundation.framework in Frameworks */,
+				0371620715DAF166006DBF95 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037161F315DAF166006DBF95 = {
+			isa = PBXGroup;
+			children = (
+				0E5B840A1639980B00E868A9 /* Default-568h@2x.png */,
+				03FCBBC115EC05550070C60B /* TouchServiceSharedConstants.h */,
+				0371620815DAF166006DBF95 /* Source */,
+				0371620115DAF166006DBF95 /* Frameworks */,
+				037161FF15DAF166006DBF95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037161FF15DAF166006DBF95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037161FE15DAF166006DBF95 /* Brush.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0371620115DAF166006DBF95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0371622015DAF647006DBF95 /* CoreBluetooth.framework */,
+				0371620215DAF166006DBF95 /* UIKit.framework */,
+				0371620415DAF166006DBF95 /* Foundation.framework */,
+				0371620615DAF166006DBF95 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0371620815DAF166006DBF95 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B83FE163973A200E868A9 /* Entitlements.plist */,
+				0371621115DAF166006DBF95 /* AppDelegate.h */,
+				0371621215DAF166006DBF95 /* AppDelegate.m */,
+				0371621415DAF166006DBF95 /* MainStoryboard.storyboard */,
+				03D025FA15EC58330001A40D /* WaitingForConnectionController.h */,
+				03D025FB15EC58330001A40D /* WaitingForConnectionController.m */,
+				0371621715DAF166006DBF95 /* ConnectedController.h */,
+				0371621815DAF166006DBF95 /* ConnectedController.m */,
+				0371620915DAF166006DBF95 /* Supporting Files */,
+				034DC98215EBB02F001F2BB8 /* TouchService.h */,
+				034DC98315EBB02F001F2BB8 /* TouchService.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		0371620915DAF166006DBF95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0371620A15DAF166006DBF95 /* SharedCanvas-Peripheral-Info.plist */,
+				0371620B15DAF166006DBF95 /* InfoPlist.strings */,
+				0371620E15DAF166006DBF95 /* main.m */,
+				0371621015DAF166006DBF95 /* SharedCanvas-Peripheral-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037161FD15DAF166006DBF95 /* SharedCanvas-Peripheral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0371621C15DAF166006DBF95 /* Build configuration list for PBXNativeTarget "SharedCanvas-Peripheral" */;
+			buildPhases = (
+				037161FA15DAF166006DBF95 /* Sources */,
+				037161FB15DAF166006DBF95 /* Frameworks */,
+				037161FC15DAF166006DBF95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SharedCanvas-Peripheral";
+			productName = CBPeripheral;
+			productReference = 037161FE15DAF166006DBF95 /* Brush.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037161F515DAF166006DBF95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Josh Rooke-Ley";
+			};
+			buildConfigurationList = 037161F815DAF166006DBF95 /* Build configuration list for PBXProject "SharedCanvas-Peripheral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 037161F315DAF166006DBF95;
+			productRefGroup = 037161FF15DAF166006DBF95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037161FD15DAF166006DBF95 /* SharedCanvas-Peripheral */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037161FC15DAF166006DBF95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0371620D15DAF166006DBF95 /* InfoPlist.strings in Resources */,
+				0371621615DAF166006DBF95 /* MainStoryboard.storyboard in Resources */,
+				0E5B83FF163973A200E868A9 /* Entitlements.plist in Resources */,
+				0E5B840B1639980B00E868A9 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037161FA15DAF166006DBF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0371620F15DAF166006DBF95 /* main.m in Sources */,
+				0371621315DAF166006DBF95 /* AppDelegate.m in Sources */,
+				0371621915DAF166006DBF95 /* ConnectedController.m in Sources */,
+				034DC98415EBB02F001F2BB8 /* TouchService.m in Sources */,
+				03D025FC15EC58330001A40D /* WaitingForConnectionController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0371620B15DAF166006DBF95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0371620C15DAF166006DBF95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0371621415DAF166006DBF95 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0371621515DAF166006DBF95 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0371621A15DAF166006DBF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0371621B15DAF166006DBF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0371621D15DAF166006DBF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/SharedCanvas-Peripheral-Prefix.pch";
+				INFOPLIST_FILE = "Source/SharedCanvas-Peripheral-Info.plist";
+				PRODUCT_NAME = Brush;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0371621E15DAF166006DBF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Source/SharedCanvas-Peripheral-Prefix.pch";
+				INFOPLIST_FILE = "Source/SharedCanvas-Peripheral-Info.plist";
+				PRODUCT_NAME = Brush;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037161F815DAF166006DBF95 /* Build configuration list for PBXProject "SharedCanvas-Peripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0371621A15DAF166006DBF95 /* Debug */,
+				0371621B15DAF166006DBF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0371621C15DAF166006DBF95 /* Build configuration list for PBXNativeTarget "SharedCanvas-Peripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0371621D15DAF166006DBF95 /* Debug */,
+				0371621E15DAF166006DBF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037161F515DAF166006DBF95 /* Project object */;
+}
